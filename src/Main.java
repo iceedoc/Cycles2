@@ -9,7 +9,6 @@ public class Main {
         int month = 0;
         while (sum < desiredSum) {
             sum += save;
-            sum = (int) (sum * (1 + percent));
             month++;
             System.out.println("Месяц " + month + ",сумма накоплений равна" + sum + "рублей");
         }
